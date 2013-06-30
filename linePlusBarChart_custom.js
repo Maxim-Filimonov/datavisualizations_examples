@@ -290,7 +290,7 @@ var y = d3.scale.linear()
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
-    .tickFormat(d3.time.format("%H:%M"));
+    .tickFormat(d3.time.format("%a %H:%M"));
 
 var yAxis = d3.svg.axis()
     .scale(y)
